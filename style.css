@@ -7,38 +7,102 @@ body {
     padding: 20px;
 }
 
-/* Title section styling */
-.title h1 {
-    text-align: center;
-    color: #333;
-}
 
-/* Questions section styling */
-.questions {
-    background-color: #fff;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.questions h4 {
-    color: #666;
-}
-
-.questions img {
-    width: 100%; /* Make images responsive */
-    height: auto;
-    border-radius: 8px;
-    margin-top: 10px;
-}
 
 /* Result section styling */
-.result {
-    background-color: #e2e2e2;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 8px;
-    font-size: 1.2em;
+
+
+.question1 {
+    
+    background-color: aliceblue;
 }
+
+
+
+.start {
+    font-size: 50px;
+    position: fixed;
+    top: 40%;
+    left: 44%;
+    border-style:solid;
+    border-radius: 25px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(251, 251, 186);
+}
+.title {
+    background-color: lightblue;        
+    width: 100vw;                       
+    height: 100vh;                      
+    margin: 0;
+    padding: 0;
+}
+
+.question1, .question2, .question3, .question4,
+.kennyscreen, .stanscreen, .cartmanscreen, .kylescreen, .buttersscreen {
+    display: none;
+}
+
+.question1, .question2, .question3, .question4 {
+    
+background-color: #d0bef8;
+   position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #f8f6f6;
+  font-size: 60px;
+  text-align: center;
+}
+
+.buttersscreen {
+    display: none;
+    text-align: center;
+
+}
+.kylescreen {
+    text-align: center;
+}
+
+.cartmanscreen {
+    text-align: center;
+}
+.kennyscreen {
+    text-align: center;
+}
+
+.q1, .q2, .q3, .q4, .q5 {
+ font-size: 40px;
+  cursor: pointer;  
+  font-family: "Montserrat", sans-serif;
+}
+
+.honest, .loud, .sweet, .shy, .smart {
+   
+  font-size: 40px;
+  cursor: pointer; 
+  font-family: "Montserrat", sans-serif; 
+}
+
+.blue, .green, .red, .yellow, .orange {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+.cheesypoofs, .sandwhich, .whatever, .crackers, .apple {
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+
+
+
